@@ -20,20 +20,20 @@ Following is a summary of the congressional election across Denver, Jefferson an
     * Winning Percentage: 73.8%
 
 ## Election Audit Summary
-A Python code was successfully developed for computing and tabulating election results. The code can be used for any number of counties and candidates, as long as the data is input in the same format as the existing input csv file. However, with slight modifications, the code can be extended for use with other elections. Here are two ways the script can be modified to make it more usable.
+A Python code was successfully developed for computing and tabulating election results. The code can be used for any number of counties and candidates, as long as the data is input in the same format as the existing input csv file. However, with slight modifications, the code can be extended for use with other elections. Here are two ways the script can be modified to make it more usable:
 
-    1. The csv file can include additional columns of data. If the structure of the existing csv file changes, then the following lines of code shown below need to be modified to include the appropriate index.
+1. The csv file can include additional columns of data. If the structure of the existing csv file changes, then the following lines of code shown below need to be modified to include the appropriate index.
 
-    [Index Lines](Resources/Code_Screenshot1.png)
+[Index Lines](Resources/Code_Screenshot1.png)
 
-    Depending on how the columns are organized, the county and candidate_name variables need to be modified to point to the right column. Similarly, additional variables to track other columns can be created and assigned the right row[] index.
+Depending on how the columns are organized, the county and candidate_name variables need to be modified to point to the right column. Similarly, additional variables to track other columns can be created and assigned the right row[] index.
 
-    1. The current output printed to the text file cannot be directly used for further calculations due to the way it is formatted. Modifying the format so that the results can directly be opened in Excel should be more useful. The updated format for variables written to a csv file is shown below:
-    
-    [](Resources/csv_format.png)
+1. The current output printed to the text file cannot be directly used for further calculations due to the way it is formatted. Modifying the format so that the results can directly be opened in Excel should be more useful. The updated format for variables written to a csv file is shown below:
 
-    The corresponding csv output now opened in Excel is shown below:
-    [](Resources/Excel_Print.png)
+[](Resources/csv_format.png)
+
+The corresponding csv output now opened in Excel is shown below:
+[](Resources/Excel_Print.png)
     
 
 
