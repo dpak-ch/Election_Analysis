@@ -1,11 +1,8 @@
 # Election Audit Using Python
 ## Contents
-- [Election Audit Using Python](#election-audit-using-python)
-  - [Contents](#contents)
-  - [Overview of the Project](#overview-of-the-project)
-  - [Files](#files)
-  - [Election Audit Results](#election-audit-results)
-  - [Election Audit Summary](#election-audit-summary)
+- [Overview of the Project](#overview-of-the-project)
+- [Election Audit Results](#election-audit-results)
+- [Election Audit Summary](#election-audit-summary)
 
 ## Overview of the Project
 The purpose of this project is to assist a Colorado Board of Elections employee in auditing election results across three different counties. The task involves estimating and reporting results for each of the candidate and county involved. Election data is available in a csv file and Python was used to read the data and compute results.
@@ -40,7 +37,7 @@ A Python code was successfully developed for computing and tabulating election r
 
 Depending on how the columns are organized, the county and candidate_name variables need to be modified to point to the right column. Similarly, additional variables to track other columns can be created and assigned the right row[] index.
 
-2\. The current output printed to the text file cannot be directly used for further calculations due to the way it is formatted. Modifying the format so that the results can directly be opened in Excel should be more useful. An example line of code with the updated format for variables written to a csv file is shown below:
+2\. The current output printed to the text file cannot be directly used for further calculations due to the way it is formatted. Modifying the format so that the results can directly be opened in Excel should be more useful. An example line of code with the updated format (using commas) for variables written to a csv file is shown below:
 
 ![Format](Resources/csv_format.png)
 
